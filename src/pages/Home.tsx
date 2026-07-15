@@ -1,7 +1,7 @@
 import { useLanguage } from '../contexts/LanguageContext'
 import { personalInfo, strengths } from '../data/content'
 import { motion } from 'framer-motion'
-import { MapPin, Phone, Mail, Calendar, Download, ChevronRight } from 'lucide-react'
+import { MapPin, Phone, Calendar, Download, ChevronRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
