@@ -1,5 +1,5 @@
 import { useLanguage } from '../contexts/LanguageContext'
-import { contactInfo, personalInfo } from '../data/content'
+import { contactInfo } from '../data/content'
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Copy, Check } from 'lucide-react'
 import { useState } from 'react'
