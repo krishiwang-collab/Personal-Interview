@@ -1,7 +1,7 @@
 import { useLanguage } from '../contexts/LanguageContext'
 import { certificates, skills } from '../data/content'
 import { motion } from 'framer-motion'
-import { Award, ExternalLink, CheckCircle } from 'lucide-react'
+import { Award, CheckCircle } from 'lucide-react'
 
 export default function Certificates() {
   const { t } = useLanguage()

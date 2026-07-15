@@ -1,24 +1,17 @@
 import { useLanguage } from '../contexts/LanguageContext'
 import { contactInfo, personalInfo } from '../data/content'
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Clock, Send, Copy, Check } from 'lucide-react'
+import { Mail, Phone, MapPin, Copy, Check } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Contact() {
   const { t } = useLanguage()
   const [copied, setCopied] = useState<string | null>(null)
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
 
   const handleCopy = (text: string, label: string) => {
     navigator.clipboard.writeText(text)
     setCopied(label)
     setTimeout(() => setCopied(null), 2000)
-  }
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    const mailtoLink = `mailto:${personalInfo.email}?subject=${encodeURIComponent(`来自 ${formData.name} 的留言`)}&body=${encodeURIComponent(formData.message)}`
-    window.location.href = mailtoLink
   }
 
   return (
