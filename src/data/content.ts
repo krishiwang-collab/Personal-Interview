@@ -22,8 +22,8 @@ export const personalInfo = {
   experience: '8年',
   experienceEn: '8 Years',
   salary: '16-20K',
-  photo: '/images/photo.png',
-  resume: '/images/resume.pdf',
+  photo: '/Personal-Interview/images/photo.png',
+  resume: '/Personal-Interview/images/resume.pdf',
 }
 
 export const strengths = [
@@ -427,7 +427,7 @@ export const certificates = [
     expiry: '2027.06',
     expiryEn: 'Jun 2027',
     number: '3098361 (CITEF)',
-    image: '/images/pmp.jpg',
+    image: '/Personal-Interview/images/pmp.jpg',
     description: {
       zh: '全球公认的项目管理专业认证，证明具备领导和管理项目的能力。',
       en: 'Globally recognized project management certification demonstrating ability to lead and direct projects.',
@@ -442,7 +442,7 @@ export const certificates = [
     expiry: '',
     expiryEn: '',
     number: '180-214-637',
-    image: '/images/rhcsa.jpg',
+    image: '/Personal-Interview/images/rhcsa.jpg',
     description: {
       zh: '红帽企业Linux系统管理认证，证明具备Linux系统管理核心技能。',
       en: 'Red Hat Enterprise Linux system administration certification proving core Linux administration skills.',
@@ -466,7 +466,7 @@ export const skills = [
 export const socialLinks = [
   { name: 'LinkedIn', url: 'https://linkedin.com', icon: Globe },
   { name: 'GitHub', url: 'https://github.com', icon: Globe },
-  { name: 'Resume', url: '/images/resume.pdf', icon: FileText },
+  { name: 'Resume', url: '/Personal-Interview/images/resume.pdf', icon: FileText },
 ]
 
 export const contactInfo = {
