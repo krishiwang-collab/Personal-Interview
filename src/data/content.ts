@@ -1,11 +1,11 @@
 import { Globe, Home, User, Briefcase, Award, Mail, FileText } from 'lucide-react'
 
 export const navItems = [
-  { path: '/', labelZh: '首页', labelEn: 'Home', icon: Home },
-  { path: '/about', labelZh: '关于', labelEn: 'About', icon: User },
-  { path: '/experience', labelZh: '经历', labelEn: 'Experience', icon: Briefcase },
-  { path: '/certificates', labelZh: '证书', labelEn: 'Certificates', icon: Award },
-  { path: '/contact', labelZh: '联系', labelEn: 'Contact', icon: Mail },
+  { path: '/Personal-Interview/', labelZh: '首页', labelEn: 'Home', icon: Home },
+  { path: '/Personal-Interview/about', labelZh: '关于', labelEn: 'About', icon: User },
+  { path: '/Personal-Interview/experience', labelZh: '经历', labelEn: 'Experience', icon: Briefcase },
+  { path: '/Personal-Interview/certificates', labelZh: '证书', labelEn: 'Certificates', icon: Award },
+  { path: '/Personal-Interview/contact', labelZh: '联系', labelEn: 'Contact', icon: Mail },
 ]
 
 export const personalInfo = {
@@ -476,8 +476,8 @@ export const contactInfo = {
   ],
   phone: '15195963951',
   location: {
-    zh: '上海',
-    en: 'Shanghai',
+    zh: '深圳',
+    en: 'Shenzhen',
   },
   availability: {
     zh: '随时可联系',
