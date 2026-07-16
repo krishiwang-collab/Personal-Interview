@@ -46,7 +46,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <Link to="/contact" className="btn-primary">
+                <Link to="/Personal-Interview/contact" className="btn-primary">
                   {t('联系我', 'Contact Me')}
                   <ChevronRight size={16} />
                 </Link>
